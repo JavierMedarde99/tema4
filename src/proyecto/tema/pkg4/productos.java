@@ -99,6 +99,11 @@ public class productos {
     public double getLaysCampesinas() {
         return laysCampesinas;
     }
-
+//proceso para el dinero de la bolsa 1
+    public static double Bolsa1() {
+        double total = chucherias + redBull + cocacola + BarraPan + oxigenoActivo + laysCampesinas + mounster;
+        total = total - descuento;
+        return total;
+    }
    
 }

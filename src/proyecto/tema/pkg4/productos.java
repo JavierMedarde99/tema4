@@ -106,4 +106,10 @@ public class productos {
         return total;
     }
    
+    //proceso para el dinero de la bolsa 2
+    public static double Bolsa2() {
+        double total = patatasFritas + Packcocacola + papaDelta + RISI + medianoche;
+        total = total - descuento;
+        return total;
+    }
 }

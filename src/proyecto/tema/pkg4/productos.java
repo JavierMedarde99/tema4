@@ -112,4 +112,13 @@ public class productos {
         total = total - descuento;
         return total;
     }
+    
+      //proceso para el dinero de la bolsa 3
+    public static double Bolsa3() {
+        double total = patatasFritas + Packcocacola + donucts + palomistasKetchup + judias + azucar;
+        total = total - descuento;
+
+        return total;
+    }
+
 }
